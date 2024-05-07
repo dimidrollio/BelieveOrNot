@@ -1,8 +1,7 @@
-﻿namespace BelieveOrNot.Cards.ICards
+﻿namespace BelieveOrNot.Models.IModels
 {
 	public interface ICard
 	{
-		public int Id { get; set; }
 		public string Value { get; set; }
 		public string Suit {  get; set; }
 	}
